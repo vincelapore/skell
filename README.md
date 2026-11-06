@@ -1,30 +1,26 @@
 # Skell
 
-Archival record of Skell, a fictional Scandinavian architecture magazine (1971–1983).
+Fictional archival site for Skell, a Scandinavian architecture magazine that "ran" from 1971 to 1983.
 
 **Live:** [skell-seven.vercel.app](https://skell-seven.vercel.app)
 
 ## Overview
 
-Skell is a design-led Next.js site that presents a complete fictional archive: 47 quarterly issues of architectural criticism from Göteborg, Sweden. It explores editorial storytelling, cover archives, editor biographies, and a chronology of the magazine's run from founding issue to final issue.
+Skell is a design exercise: a full made-up archive of 47 quarterly issues of architectural criticism out of Göteborg. I wanted to practise editorial storytelling, multi-page IA, and a dark archival visual system without inventing a CMS for it.
 
-Built as a portfolio piece to practice content modeling, typography, and multi-page information architecture for cultural / archival experiences.
+Content (issues, covers, editors, chronology) lives in typed TypeScript modules.
 
-## Features
+## What's on the site
 
-- Landing archive with featured issues, cover grid, editors, and timeline
-- Issue index and individual issue routes under `/issues`
-- About, manifesto, and editors pages with biography and quote content
-- Structured content for issues, covers, editors, and chronology in TypeScript
-- Dark archival visual system with custom cream / gold palette
+- Home: featured issues, cover grid, editors, short chronology
+- `/issues` index plus individual issue pages
+- About, manifesto, and editors routes with bios and quotes
+- Cream / gold on dark palette; cover images under `public/images/covers`
 
 ## Tech stack
 
-- Next.js (App Router)
-- React
-- TypeScript
-- Tailwind CSS
-- Deployed on Vercel
+- Next.js (App Router), React, TypeScript, Tailwind CSS
+- Hosted on Vercel
 
 ## Getting started
 
@@ -37,7 +33,7 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ## Deploy
 
-Hosted on [Vercel](https://vercel.com). Connect the repo and use the default Next.js build settings.
+On Vercel with the default Next.js settings.
 
 ## Author
 
